@@ -1,10 +1,10 @@
 
-  function randomNumberGuessGame(num){
-    let x = Math.floor(Math.random() * 10 + 1);
+//Random Number Guessing Game:
+//Develop a program that generates a random number between 1 and 100. Allow the user to guess the number and provide feedback on whether the guess is too high, too low, or correct.
  
-    // Counting the number of guesses
-    // made for correct Guess
-    let guess = 3;
+function randomNumberGuessngGame(num){
+    let x = Math.floor(Math.random() * 100 + 1);
+ 
     console.log(x);
 
     if (num < x) {
@@ -16,4 +16,5 @@
     }
 
   }
-  console.log (randomNumberGuessGame(60));
+  
+  console.log (randomNumberGuessngGame(50));
